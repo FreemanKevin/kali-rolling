@@ -30,7 +30,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: freemankevin/kali-image:latest
+          tags: ventaliszarquix/kali-image:latest
           platforms: linux/amd64, linux/arm64
 
       - name: Logout from DockerHub
