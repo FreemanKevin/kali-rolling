@@ -30,7 +30,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ventaliszarquix/kali-rolling:latest
+          tags: fkevin/kali-rolling:latest
           platforms: linux/amd64, linux/arm64
 
       - name: Logout from DockerHub
